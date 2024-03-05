@@ -1,0 +1,15 @@
+2024-02-25T12:59:52.116+08:00  INFO 17864 --- [main] com.example.boot02.Boot02Application     : Starting Boot02Application using Java 21.0.2 with PID 17864 (D:\IDEA_projects\SpringBoot3\boot02\target\classes started by 24197 in D:\IDEA_projects\SpringBoot3)
+2024-02-25T12:59:52.118+08:00  INFO 17864 --- [main] com.example.boot02.Boot02Application     : No active profile set, falling back to 1 default profile: "default"
+2024-02-25T12:59:53.059+08:00  INFO 17864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-02-25T12:59:53.072+08:00  INFO 17864 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-02-25T12:59:53.072+08:00  INFO 17864 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.18]
+2024-02-25T12:59:53.122+08:00  INFO 17864 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-02-25T12:59:53.123+08:00  INFO 17864 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 944 ms
+2024-02-25T12:59:53.468+08:00  WARN 17864 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-02-25T12:59:53.547+08:00  INFO 17864 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path ''
+2024-02-25T12:59:53.553+08:00  INFO 17864 --- [main] com.example.boot02.Boot02Application     : Started Boot02Application in 1.925 seconds (process running for 3.444)
+2024-02-25T13:00:05.379+08:00  INFO 17864 --- [http-nio-8080-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [Hm_lvt_c6638ca3ceb11f7967e468ee00ced931=1694850036,1695031098;] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2024-02-25T13:00:05.393+08:00  INFO 17864 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-02-25T13:00:05.396+08:00  INFO 17864 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-02-25T13:00:05.400+08:00  INFO 17864 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms

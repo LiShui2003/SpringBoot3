@@ -1,0 +1,8 @@
+person:
+  name: lishui
+  age: 20
+  dogs: [{name: 小兰, age: 7}, {name: 小绿, age: 6}]
+  mapdogs:
+    d1:
+      name: 小红
+      age: 9
